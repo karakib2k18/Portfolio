@@ -1,0 +1,573 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* font link */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+/* h1,h2,h3,h4,h5,h6,p,span,button,input,a{
+    font-family: 'Open Sans', sans-serif;
+} */
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* header start here */
+header{
+    position: absolute;
+    width: 100%;
+    padding: 6px 0px;
+}
+.nav-item{
+    padding: 0px 90px 0px 0px;
+
+}
+
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16 !important;
+    font-weight: 400 ;
+    color:#FFFFFF !important;
+    position: relative;
+}
+.nav-link:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background: white;
+   
+}
+.nav-link:hover::before{
+    color: white !important;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+/* banner start here */
+.banner{
+    width: 100%;
+    background-image: url(../img/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 85vh;
+}
+
+.banner-bgc{
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.b-mid{
+    height: 75vh;
+}
+ .title h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700 ;
+    color:#FFFFFF !important;
+    font-size: 52px;
+}
+.title p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    color:#FFFFFF;
+    font-size: 30px;
+    padding-top: 20px ;
+    margin-bottom: -2rem !important;
+}
+
+.i-down a i{
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background:#FFB233;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #FFF0D6;
+} 
+/* banner end here */
+
+/* about start here */
+.about{
+    width: 100%;
+    padding: 70px 0px;
+}
+
+.about-des h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    color:#000000;
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin-bottom: 80px;
+
+}
+/* .about-des img{
+
+
+} */
+.about-des h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    color: #818181;
+    font-size: 18px;
+    margin: 25px 0px;
+
+}
+.about-des p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    color: #3F3F3F;
+    font-size: 14px;
+
+
+}
+.about-des ul{
+    padding-left: 0rem !important;
+}
+.about-des ul li{
+    padding: 11px 12px;
+
+}
+.about-des ul li a i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: #C6C6C5;
+    color: #FFFFFF;
+    border-radius: 50%;
+
+}
+.about-des ul li a i:hover{
+    background: #FFB233;
+}
+
+
+.about-des .btn-success {
+    border: 2px solid #51A351 ;
+    padding: 10px 40px;
+    background: transparent;
+}
+
+.about-des .btn-success a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600 ;
+    color: #51A351;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+/* about end here */
+
+/* suggest start here */
+.suggest{
+    width: 100%;
+    background-image: url(../img/bg2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+}
+.suggest-bg{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+.sug-pad{
+    padding: 180px 0px;
+}
+.suggest .col-md-12 h1{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+.social-des {
+    margin-top: 100px;
+
+}
+.social-des a{
+    font-size: 30px;
+
+}
+.social-des a i{
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    background-color: #FFB233;
+    border: 2px solid #765A2C;
+    border-radius: 50%;
+    color: #FFFFFF;
+
+}
+.social-des p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 15px 0px;
+
+}
+/* suggest end here */
+
+/* counter start here  */
+
+.counter{
+    width: 100%;
+    background: #F3F4FF;
+    padding: 90px 0px 75px 0px;
+    
+}
+.counter h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700 ;
+    color: #444444;
+    font-size: 42px;
+}
+
+.counter .line{
+    height: 3px;
+    background: #51A351;
+    width: 30px;
+    margin: 15px auto;
+
+}
+
+.counter p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    color: #444444;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+/* counter end here  */
+
+
+/* port-desc start here */
+.port-desc{
+    width: 100%;
+    background: #FFFFFF;
+    padding: 90px 0px;
+
+}
+
+.port-desc h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 32px;
+    color: #333B46;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.port-desc ul{
+    padding-left: 0rem !important ;
+    
+    
+    
+}
+
+.port-desc ul li{
+    margin: 30px 15px;
+       
+    
+}
+
+.port-desc ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 16px;
+    color: #464646;
+    position: relative;
+
+    
+}
+
+.port-desc ul li a:before{
+    content: "";
+    position: absolute;
+    margin-bottom: -10px;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 0;
+    background: #19BD9A;
+   
+}
+.port-desc ul li a:hover::before{
+    color:#19BD9A !important;
+    width: 100%;
+    transition: 0.5s;
+    
+}
+
+/* .port-desc .port-img{
+    
+} */
+
+.port-img img{
+    margin-bottom: 12px;
+    
+}
+
+
+
+.effect{
+    position: relative;
+    overflow: hidden;
+}
+.hover-text{
+    position: absolute;
+    padding: 26px;
+    width: 100%;
+    left: 0px;
+    top: -240px;
+    bottom: 12px;
+    transition: 0.5s ease-in-out;
+}
+
+.effect:hover .hover-text {
+    width: 100%;
+    top: 0px;
+    transition: 0.5s ease-in-out;
+    background: rgba(0,0,0,0.5);
+}
+.hover-text h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 20px;
+    color:  #19BD9A;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.hover-text .line{
+    height: 3px;
+    background: #19BD9A;
+    width: 30px;
+    margin: 15px 0px;
+
+    
+}
+
+.hover-text p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 14px;
+    color:  #B2B3B3;
+    text-align: left;
+    
+}
+
+
+.hover-text a{
+    font-size: 20px;
+    
+}
+
+.hover-text a i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background: transparent;
+    
+}
+.port-desc button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600 ;
+    font-size: 14px;
+    color:  #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+.port-desc .btn-success {
+    padding: 15px 35px;
+}
+ 
+.part-2{
+    margin: 0px 10px;
+}
+/* port-desc start here */
+
+/* slider part start here */
+.slider{
+    width: 100%;
+    background-image: url(../img/quote.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: auto;
+    padding: 40px 0px;
+}
+
+.slider h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 32px;
+    color:  #1D1D1D;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.item p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 18px;
+    color:  #484848;
+    padding: 15px 185px;
+
+}
+.owl-carousel .owl-item img {
+    display: inline-block !important;
+    width: auto !important;
+}
+/* slider part end here */
+
+/* contact section start here  */
+.contact{
+    width: 100%;
+    background-image: url(../img/bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: auto;
+
+}
+.contact-all{
+    padding: 80px 0px 50px 0px;
+}
+.contact-des .col-md-4 h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400  !important;
+    font-size: 32px !important;
+    color:  #FFFFFF !important;
+    letter-spacing: 1px !important;
+    text-align: left;
+
+
+}
+.contact-bg{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+.contact .contact-des  a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 16px;
+    color:  #FFFFFF;
+    text-align: left;
+
+}
+.contact .contact-des  h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 14px;
+    color:  #DADADA;
+    text-align: left;
+
+}
+ .contact .contact-des  p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 20px;
+    color:  #FFFFFF;
+    text-align: left;
+
+}
+
+.contact-form {
+	margin: 40px 0px;
+}
+
+.contact-form .input{
+	width: 100%;
+}
+.contact-form .input input{
+	width: 100%;
+	padding: 15px 20px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 14px;
+}
+.contact-form .input input:focus{
+	border: 1px solid #ffb233;
+	outline: none;
+}
+.contact-form .input input::placeholder{
+	color: #fff;
+	font-size: 14px;
+}
+.contact-form textarea{
+	width: 100%;
+	padding: 15px 20px 100px 15px;
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size: 14px;
+}
+.contact-form textarea:focus{
+	border: 1px solid #ffb233;
+	outline: none;
+}
+.contact-form textarea::placeholder{
+	color: #fff;
+	font-size: 14px;
+}
+.contact-form .btn{
+	width: 100%;
+	padding: 15px 75px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.contact-form .btn-success{
+	color: #fff;
+    background-color: #51a351;
+    border-color: #51a351;
+}
+.contact-form .btn:hover{
+    background-color: #51a351;
+    border-color: #51a351;
+}
+.contact-form .btn:focus{
+	box-shadow: none;
+	background-color: #51a351;
+	border-color: #51a351;
+
+}
+.contact .copyright p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400 ;
+    font-size: 13px;
+    color:  #FFFFFF;
+    text-align: center;
+
+}
+/* contact section end here  */
+
